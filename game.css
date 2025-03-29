@@ -1,0 +1,86 @@
+header
+{
+    font-size: 200px;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+}
+body
+{
+    background-image: url("soccer_field2.jpeg");
+}
+h1
+{
+    font-size: 80px;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+}
+h2
+{
+    font-size: 40px;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline; 
+    align-items: center;
+    align-content: center;
+      
+}
+h4
+{
+    font-size: 40px;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center("flip");
+    align-content: center;   
+}
+button
+{
+    background-color: chartreuse;
+    border-radius: 50%;
+    color: black;
+    padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+}
+h5
+{
+    font-size: 40px;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center("flip");
+    align-content: center;   
+}
+button
+{
+    position: absolute;
+    margin-top: 50px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+    background-color: chartreuse;
+    border: 2px black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 30px;
+    align-content: center;
+}
+button:hover
+{
+    background-color: #02990f;
+}
+button:active
+{
+    background-color: #02990f;
+    box-shadow: 0 9px green;
+    transform: translateY(9px);
+}

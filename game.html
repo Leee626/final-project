@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads or tails</title>
+    <!--link for javascript-->
+    <script src ="gamecode.js"></script>
+    <!--link for css-->
+    <link href="game.css" rel="stylesheet">
+    <!--this is the only code ive fount to center my image with the text. if this is wrong please show me the right way.-->
+    <style>
+        img
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+   <header>
+    <!--header for game-->
+    <h1 id="heading">welcome to heads or tails</h1>
+    
+   </header>
+    <br>
+    <!--Id for choosing heads or tails-->
+   <h2 id = "chooseimg">click penny to call</h2>
+    <img id="choose" src="penny_heads.png" alt="image" style="width:200px;height: 200px;"
+     onclick="changeimage1();">
+    
+    <br>
+    <!--Id for coin flip-->
+   <h4>flip to win</h4>
+    <img id="finalresult" width="200px" height="200px">
+    <button onclick = "flip();">flip</button>
+   <br>
+   <h5>home button</h5>
+   <button id = "home" onclick = "goHome()">Grift Auto Home</button>
+         
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--palindrome checker by levi hull-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links to css and javascript-->
+    <script src = "csc102 strings.js"></script>
+    <link rel = "stylesheet" href="csc102 strings.css">
+    <!--title for page-->
+    <title>palindrome checker</title>
+</head>
+<body>
+    <!--palindrome checker with palindrome in title-->
+    <h1>Racecar palindrome checker</h1>
+    <!--form for string submission-->
+    <form id = "stringinput" onsubmit="return false">
+        string 1: <input type = "text" id = "firststring"/>
+            <br> <br>
+        strung 2: <input type = "text" id = "secondstring"/>
+        <br> <br>
+        <input type="submit" onclick="strings();"/>
+
+    </form>
+    <!--on submit answer-->
+    <p id = "updates"> palindrome ya or na </p>
+    <br>
+    <!--button for return home-->
+    <button id = "home" onclick = "goHome()">Grift Auto Home</button>
+</body>
+</html>
