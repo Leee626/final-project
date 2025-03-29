@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link for javascript and css-->
+    <script src="csc102 login page.js"></script>
+    <link rel="stylesheet" href="csc102 login page.css">
+    <!--grift auto login page by levi hull-->
+    <title>Grift Auto</title>
+</head>
+<body>
+    <!--header for login page-->
+    <h1>login to Grift Auto for fun and entertainment!</h1>
+
+    <!--form requirements for login to site-->
+
+    <form id="login" onsubmit = "return false">
+
+    first name: <input type="text" id = "firstname"/>
+    <br>
+    <br>
+    last name: <input type="text" id="lastname"/>
+    <br>
+    <br>
+    zip code: <input type="number" id="zip"/>
+    <br>
+    <br>
+    password: <input type="password" id="pw"/>
+    <input type = "submit" onclick = "checkcreds();">
+
+    </form>
+
+    <p id = "loginStatus">go or no go</p>
+</body>
+</html>
