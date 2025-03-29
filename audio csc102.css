@@ -1,0 +1,50 @@
+head
+{
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+}
+body
+{
+    background-image: url("the_ring7.jpg") ;
+}
+h1
+{
+ font-size: 50px;
+ color: chartreuse;
+ text-align: center;
+}
+audio
+{
+    position: absolute;
+    right: 825px
+}
+button
+{
+    position: absolute;
+    right: 850px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+    background-color: chartreuse;
+    border: 2px black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 30px;
+    align-content: center;
+}
+button:hover
+{
+    background-color: #02990f;
+}
+button:active
+{
+    background-color: #02990f;
+    box-shadow: 0 9px green;
+    transform: translateY(9px);
+}

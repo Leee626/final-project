@@ -1,0 +1,35 @@
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+body
+{
+    background-image: url("the_ring7.jpg");
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button
+{
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+    background-color: chartreuse;
+    border: 2px black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 30px;
+    align-content: center;
+}
